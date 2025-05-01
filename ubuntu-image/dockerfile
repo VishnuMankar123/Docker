@@ -1,0 +1,8 @@
+# this is base image 
+FROM ubuntu
+# this is auther name 
+MAINTAINER vishnudas
+#update command 
+RUN apt update
+# inital executable command startup command
+CMD [ "echo" , "this is my first ubuntu images " ]
